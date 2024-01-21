@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "name": "ram_lala",
+  "version": "1.0.0",
+  "description": "this is ade for ram bhakt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ram"
+  ],
+  "author": "suraj kumar",
+  "license": "ISC"
+}

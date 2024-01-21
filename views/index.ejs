@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>jai shree ram</title>
+</head>
+<body>
+    <marquee>
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <br>
+    </marquee>
+    <div id="mandir">
+        <h1 id="text">मंदिर पर क्लिक करें 👇</h1>
+    </div>
+    <marquee>
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+        <img src="/images/kalash.jpg">
+    </marquee>
+    <br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        let mandir = document.getElementById("mandir")
+        mandir.addEventListener("click", ()=>{
+            gsap.to("body", {
+            opacity: 0,
+            duration: 2,
+            ease: Expo.easeInOut
+        }).then(()=>{
+            window.location.href = `/display/<%= name %>`
+        })
+        })
+    </script>
+</body>
+</html>
